@@ -12,9 +12,9 @@ if code==200:
     driver.maximize_window()
     time.sleep(1)
     driver.find_element(By.ID,"id_userName").click()
-    driver.find_element(By.ID,"id_userName").send_keys('19713041150')
+    driver.find_element(By.ID,"id_userName").send_keys('此处填写校园网账号')
     driver.find_element(By.ID,"id_userName").send_keys(Keys.TAB)
-    driver.find_element(By.ID,"id_userPwd").send_keys('lwg15000')
+    driver.find_element(By.ID,"id_userPwd").send_keys('此处填写校园网密码')
     driver.find_element(By.ID,"id_userPwd").send_keys(Keys.ENTER)
     driver.quit()
 else:
