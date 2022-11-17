@@ -5,11 +5,11 @@ from selenium.webdriver.common.keys import Keys
 from urllib.request import urlopen
 from selenium.webdriver.common.by import By
 time.sleep(5)  # 开机等待时间
-resp = urlopen("http://10.1.0.1:8080/byod/templatePage/20190620143747626/guestRegister.jsf")  # 打开校园网登陆界面
+resp = urlopen("http://10.1.0.1:8080/byod/")  # 打开校园网登陆界面
 code = resp.getcode()
 if code == 200:  # get值200，则正确打开
     driver = webdriver.Edge("C:\Program Files (x86)\Microsoft\Edge\Application\msedgedriver.exe")  # 调用浏览器驱动程序
-    driver.get("http://10.1.0.1:8080/byod/templatePage/20190620143747626/guestRegister.jsf")  # 打开校园网登陆界面
+    driver.get("http://10.1.0.1:8080/byod/")  # 打开校园网登陆界面
     driver.maximize_window()  # 最大化窗口
     time.sleep(1)  # 等待一秒
     driver.find_element(By.ID, "id_userName").click()  # 找到用户名输入窗口
