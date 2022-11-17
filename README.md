@@ -1,4 +1,4 @@
-# hezevcxyw
+# HEZEVC-WIFI
 此python程序使用selenium进行爬虫控制登陆菏泽职业学院校园网站，需要与之相对应的浏览器驱动，从而实现一键登录菏泽职业学院校园网
 与其他高校校园网不同的是，菏职校园网网站登陆界面登陆之后并没post返回值，抓包程序也获取不到username和userpwd
 所以只能通过最简单的selenium函数进行爬虫
