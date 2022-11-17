@@ -6,6 +6,10 @@
 
 需要安装selenium和pyinstaller
 
+需要下载对应的edge驱动
+
+https://user-images.githubusercontent.com/108582074/202393931-286ac0a8-6d74-4720-913b-c386a77534e3.mp4
+
 edge浏览器驱动下载地址自行百度
 ![QQ截图20221117161449](https://user-images.githubusercontent.com/108582074/202392614-bed605bb-d6a8-4b91-a070-01b5d9d87a08.png)
 在driver = webdriver.Edge('这里面放浏览器驱动程序所在位置')
